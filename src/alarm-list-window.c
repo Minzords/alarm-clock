@@ -26,6 +26,7 @@
 #include "alarm-list-window.h"
 #include "alarm-settings.h"
 #include "alarm-actions.h"
+#pragma GCC diagnostic ignored "-Wformat-nonliteral"
 
 gboolean
 alarm_list_window_delete_event (GtkWidget *window, GdkEvent *event, gpointer data);

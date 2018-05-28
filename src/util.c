@@ -54,7 +54,7 @@ get_alarm_timestamp (guint hour, guint minute, guint second)
 	
 	// DEBUG:
 	char tmp[512];
-	strftime (tmp, sizeof (tmp), "%c", tm);
+	strftime (tmp, sizeof (tmp), "%F %r", tm);
 	g_debug ("Alarm will trigger at %s", tmp);
 	
 	return mktime (tm);
