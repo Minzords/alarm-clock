@@ -46,8 +46,6 @@ G_BEGIN_DECLS
 
 typedef struct _AlarmApplet AlarmApplet;
 
-GHashTable *app_command_map;
-
 void alarm_applet_label_update (AlarmApplet *applet);
 void alarm_applet_clear_alarms (AlarmApplet *applet);
 
